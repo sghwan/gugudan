@@ -5,10 +5,10 @@ import java.io.IOException;
 public class Gugudan {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int dan = Integer.parseInt(br.readLine());
+		int num = Integer.parseInt(br.readLine());
 		
 		for(int i = 1; i <= 9; i++) {
-			int result = dan * i;
+			int result = num * i;
 			System.out.println(result);
 		}
 	}
